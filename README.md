@@ -1,6 +1,6 @@
 # Zooplankton_biomass
 
-This repository holds the scripts used for the publication "Testing the usefulness of optical data for zooplankton long-term monitoring: Taxonomic composition, abundance, biomass and size spectra from ZooScan image analysis" by Cornils et al. (2022). The five R scripts transform the exported data of EcoTaxa dataset https://ecotaxa.obs-vlfr.fr/prj/2771 to abundance, biovolume and biomass estimates in the following order:
+This repository holds the scripts used for the publication "Testing the usefulness of optical data for zooplankton long-term monitoring: Taxonomic composition, abundance, biomass and size spectra from ZooScan image analysis" by Cornils et al. (2022). The five R scripts transform the output of EcoTaxa dataset https://ecotaxa.obs-vlfr.fr/prj/2771 to abundance, biovolume and biomass estimates in the following order:
 
 The script "PS78_ecotaxa_export_transformation.R" transforms the exported data from project https://ecotaxa.obs-vlfr.fr/prj/2771. It adjust station data, adds manual counts for images with multiple objects (ps78_multiples_ident.txt) and calculates abundance and biovolume.
 
